@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find it</title>
+	<!-- bootstrap css1 js1 -->
+	<link href="./libs/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- jquery-ui css1 js1 -->
+	<link href="./libs/jquery-ui-1.13.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- fontawesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href="materialworld.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<section id="findit">
+		<div class="container-fluid">
+			<div class="row boxs">
+				<div class="col-10 imgboxs">
+					
+					<img src="./img/adbg2.jpg"  alt="adbg2.jpg" class="bgs"/>
+
+					</div>
+				
+				<div class="col-2 textboxs fixed-end">
+					<div class="text-center py-2 fortimes">
+					   <!-- <img src="./img/clock1.png" width="100px" alt="clock1" /> -->
+					   <h4 class="fw-bold text-white">Time</h4>
+					 
+					   <span class="h5 text-white" id="times"></span>
+
+					</div>
+					<div class="text-white text-center fortexts  py-3">
+						<ul class=" text-uppercase">
+							<li class="pt-lg-4 wms">Screw</li>
+							<li class="pt-lg-4 pt-sm-1 chs">Screwdriver</li>
+							<li class="pt-lg-4 pt-sm-1 fls">Dice</li>
+							<li class="pt-lg-4 pt-sm-1 bns">Pliers</li>
+							<li class="pt-lg-4 pt-sm-1 ogs">Pencil</li>
+							<li class="pt-lg-4 pt-sm-1 fws">Coin-Spring</li>
+							<li class="pt-lg-4 pt-sm-1 fxs">Rope</li>
+							<li class="pt-lg-4 pt-sm-1 bbs">Pin</li>
+							<li class="pt-lg-4 pt-sm-1 cps">Saw</li>
+							<li class="pt-lg-4 pt-sm-1 pb-lg-5 pb-sm-2 gps">Pitchfork</li>
+						</ul>
+					</div>
+
+
+                     <div class="forhints text-center">
+                            <div class="gphints">
+                                <span class="hints hints1">Hints</span>
+                                <span class="hints hints2">Hints</span>
+                                <span class="hints hints3">Hints</span>
+                                <span class="hints hints4">Hints</span>
+                                <span class="hints hints5">Hints</span>
+                                <span class="hints hints6">Hints</span>
+                                <span class="hints hints7">Hints</span>
+                                <span class="hints hints8">Hints</span>
+                                <span class="hints hints9">Hints</span>
+                                <span class="hints hints10">Hints</span>
+                            </div>
+                            <span id="ec" class="mychances">3</span>
+                        </div>
+
+
+
+					<!-- <div class="forhints  text-center my-md-4">
+						<h3 class="btn btn-sm text-uppercase position-relative fw-bold hintbtns" id="hintbtn">Hints
+                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary " id="mychances">
+                               3
+                             </span>
+						</h3>
+					</div> -->
+				</div>
+				
+				
+			</div>
+
+			<div class="smallboxs">
+				<img src="./img/material/screw.png" class="watermelon final"  width="23px" alt="screw.png" />
+
+				<img src="./img/material/screwdriver (2).png" class="cherry final"  width="40px" alt="screwdriver (2).png" />
+
+				<img src="./img/material/dice.png" class="fly final" width="23px" alt="dice.png" />
+
+				<img src="./img/material/pliers.png" class="banana final" width="32px" alt="pliers.png" />
+
+				<img src="./img/material/pencil.png" class="orange final" width="30px" alt="pencil.png" />
+
+				<img src="./img/material/coil-spring.png" class="flower final" width="20px" alt="coil-spring.png" />
+
+				<img src="./img/material/rope.png" class="fox final" width="60px" alt="rope.png" />
+
+				<!-- <img src="./img/material/plant4-removebg-preview.png" class="bush" width="45px" alt="plant4-removebg-preview.png" /> -->
+
+				<img src="./img/material/pin.png" class="bamboo final" width="30px" alt="pin.png" />
+
+				<img src="./img/material/saw.png" class="caterpillar final" width="36px" alt="saw.png" />
+
+				<img src="./img/material/pitchfork.png" class="grape final" width="50px" alt="pitchfork.png" />
+			</div>
+			
+		</div>
+	</section>
+
+
+	<!-- Start Win Alert Box -->
+	  <div class="alertbox">
+	  	<div class="emojibox">
+	  		<img src="./img/smile5.webp" width="100px" alt="emoji" />
+	  	</div>
+	  	<div class="alerttext">
+	  		<h4>Nailed it !</h4>
+	  		<p>You completed the task!</p>
+	  		<button type="button" class="nextbtn"><a href="#">Next</a></button>
+	  		
+	  	</div>
+	  </div>
+	<!-- End Win Alert Box -->
+
+	<!-- Start Gameover Box -->
+      <div class="goverbox">
+	  	<div class="emojibox">
+	  		<img src="./img/sad2-removebg-preview.png" width="100px" alt="emoji" />
+	  	</div>
+	  	<div class="alerttext">
+	  		<h4>Ohh You lost !</h4>
+	  		<p>Let's try again!</p>
+	  		<button type="button" class="nextbtn"><a href="#">Try Again</a></button>
+	  		
+	  	</div>
+	  </div>
+	  <!-- End Gameover Box -->
+
+	
+    <!-- boostrap css1 js1 -->
+	<script src="./libs/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+
+	<!-- jquery js1 -->
+	<script src="./libs/jquery-3.6.0/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+	<!-- jquery-ui css1 js1 -->
+	<script src="./libs/jquery-ui-1.13.1/jquery-ui.min.js" type="text/javascript"></script>
+
+    <script src="materialworld.js" type="text/javascript"></script>
+
+</body>
+</html>

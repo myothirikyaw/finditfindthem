@@ -18,6 +18,10 @@ body{
 	padding: 0;
 }
 
+.imgboxs img{
+    height: 760px;
+}
+
 .smallboxs{
 	width: 100%;
 	height: 500px;
@@ -31,71 +35,78 @@ body{
 
 .watermelon{
 	position: absolute;
-	top: 59.9%;
-	left: 11%;
+	top: 92%;
+	left: 7%;
+    opacity: 0.7;
 }
 
 .cherry{
 	position: absolute;
-	top: 17%;
-	right: 27%;
+	top: 44.3%;
+	right: 18%;
+    opacity: 0.8;
+
+    transform: rotate(-17deg);
 }
 
 .fly{
 	position: absolute;
-	bottom: -42%;
-	left: 35%;
+	top: 52%;
+	left: 58.9%;
 }
 
 .banana{
-	transform: rotate(180deg);
 	position: absolute;
-	top: 12%;
-	left: 25.8%;
+	top: 35%;
+	left: 5%;
+
+    opacity: 0.6;
 }
 
 .orange{
 	position: absolute;
-	bottom: -39%;
-	left: 7.5%;
-	opacity: 0.8;
+	top: 120%;
+	left: 26%;
+
 }
 
 .flower{
 	position: absolute;
-	top: 79%;
-	left: 26%;
-	opacity: 0.8;
+	top: 51.8%;
+	left: 45%;
 }
 
 .fox{
 	position: absolute;
-	bottom: -36%;
-	right: 19%;
-}
+	top: 15.8%;
+	left: 71.5%;
 
-.bush{
-	position: absolute;
-	bottom: -38%;
-	right: 19%;
+    transform: rotate(80deg);
+
+    opacity: 0.8;
 }
 
 .bamboo{
 	position: absolute;
-	bottom: -11%;
-	right: 13%;
+	top: 43%;
+	left: 29.6%;
+
+    transform: rotate(6deg);
 }
 
 .caterpillar{
    position: absolute;
-   top: 12%;
-   right: 56%;
+   top: 39%;
+   left: 40%;
+   opacity: 0.8;
 }
 
 .grape{
 	position: absolute;
-	top: 1%;
-	left: 0%;
+	top: 57%;
+	left: 20%;
+
+    opacity: 0.7;
 }
 .things{
     animation: thinganni 2s forwards;
@@ -118,61 +129,71 @@ body{
 }
 
 @media (max-width: 1000px){
-   .watermelon{
-   	width: 23px;
-   	top: 38%;
-   }
 
-   .cherry{
-   	width: 60px;
-   	top: 10%;
-	right: 26%;
-   }
+    .imgboxs img{
+        height: 490px;
+    }
+    .watermelon{
+        top: 58.8%;
+        left: 6%;
 
-   .fly{
-   	width: 36px;
-   	bottom: 9%;
-   }
+        width: 30px;
+    }
+    
+    .cherry{
+        width: 60px;
+        top: 30%;
+        right: 17.8%;
+    }
+    
+    .fly{
+        width: 30px;
+        top: 33.5%;
+        left: 58.9%;
+    }
+    
+    .banana{
+        top: 23%;
+        left: 4.6%;
+        width: 14px;
+    }
+    
+    .orange{
+        top: 72%;
+        left: 25%;
+        width: 110px;
+    }
+    
+    .flower{
+        width: 30px;
+        top: 34%;
+        left: 45%;
+    }
+    
+    .fox{
+        position: absolute;
+        top: 46.5%;
+        right: 19%;
 
-   .banana{
-   	width: 29px;
-   	top: 6.7%;
-   }
-
-   .orange{
-   	width: 25px;
-   	bottom: 11%;
-   }
-
-   .flower{
-   	width: 26px;
-   	top: 50%;
-   }
-
-   .bush{
-   	width: 28px;
-   	right: 19.5%;
-   	bottom: 12%;
-   }
-
-   .fox{
-   	width: 40px;
-   	bottom: 13%;
-   }
-
-   .bamboo{
-   	width: 130px;
-   	bottom: 28%;
-   }
-
-   .caterpillar{
-   	width: 30px;
-   	top: 8%;
-   }
-
-   .grape{
-   	width: 32px;
-   }
+        width: 40px;
+    }
+    
+    .bamboo{
+        width: 40px;
+        top: 28.3%;
+        left: 30%;
+    }
+    
+    .caterpillar{
+       top: 23.8%;
+       left: 40%;
+    }
+    
+    .grape{
+        width: 30px;
+        top: 37%;
+        left: 19.5%;
+    }
 
 }
 
@@ -190,14 +211,18 @@ body{
 	border-bottom: 2px solid #f4f4f4;
 }
 
-.fortimes{
-	border-bottom: 2px solid #f4f4f4;
+@media (max-width: 1000px) {
+    .fortexts ul {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .fortexts ul li {
+        letter-spacing: 1px;
+    }
 }
 
-@media (max-width: 1000px){
-	.fortexts ul{
-		font-size: 14px;
-	}
+.fortimes{
+	border-bottom: 2px solid #f4f4f4;
 }
 
 .btn{
@@ -414,16 +439,16 @@ body{
 
 @media (max-width: 1000px){
    .forhints{
-   	  margin-top: 15px;
+   	  margin-top: 25px;
    }
 
    .gphints{
-    width: 70px;
+    width: 80px;
     height: 38px;
   }
 
   .gphints::before{
-  	 width: 70px;
+  	 width: 80px;
     height: 38px;
     font-size: 1rem;
     font-weight: 400;
@@ -436,7 +461,7 @@ body{
   }
 
   .hints{
-    width: 70px;
+    width: 80px;
     height: 38px;
     font-size: 1rem;
     font-weight: 400;

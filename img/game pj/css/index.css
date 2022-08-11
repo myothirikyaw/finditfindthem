@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.imgboxs {
+    margin: 0;
+    padding: 0;
+}
+
+.smallboxs {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.watermelon {
+    position: absolute;
+    top: 59%;
+    left: 11%;
+}
+
+.cherry {
+    position: absolute;
+    top: 17%;
+    right: 27%;
+}
+
+.fly {
+    position: absolute;
+    bottom: -32%;
+    left: 35%;
+}
+
+.banana {
+    transform: rotate(180deg);
+    position: absolute;
+    top: 11%;
+    left: 25.5%;
+}
+
+.orange {
+    position: absolute;
+    bottom: -40%;
+    left: 7.5%;
+    opacity: 0.8;
+}
+
+.flower {
+    position: absolute;
+    top: 75%;
+    left: 26%;
+    opacity: 0.8;
+}
+
+.fox {
+    position: absolute;
+    bottom: -38%;
+    right: 19%;
+}
+
+.bush {
+    position: absolute;
+    bottom: -41%;
+    right: 19%;
+}
+
+.bamboo {
+    position: absolute;
+    bottom: -10%;
+    right: 13%;
+}
+
+.caterpillar {
+    position: absolute;
+    top: 14%;
+    right: 56%;
+}
+
+.grape {
+    position: absolute;
+    top: 1%;
+    left: 0%;
+}
+
+.things {
+    animation: thinganni 2s forwards;
+    z-index: 2;
+}
+
+@keyframes thinganni {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(2);
+    }
+}
+
+@media (max-width: 1000px) {
+    .watermelon {
+        width: 25px;
+        top: 38%;
+    }
+    .cherry {
+        width: 60px;
+    }
+    .fly {
+        width: 36px;
+        bottom: 7%;
+    }
+    .banana {
+        width: 31px;
+        top: 6.7%;
+    }
+    .orange {
+        width: 25px;
+        bottom: 11%;
+    }
+    .flower {
+        width: 26px;
+        top: 50%;
+    }
+    .bush {
+        width: 28px;
+        right: 20%;
+    }
+    .fox {
+        width: 30px;
+        bottom: 13%;
+        right: 17%;
+    }
+    .bush {
+        bottom: 9%;
+        right: 17%;
+    }
+    .bamboo {
+        width: 130px;
+        bottom: 28%;
+    }
+    .caterpillar {
+        width: 30px;
+    }
+    .grape {
+        width: 35px;
+    }
+}
+
+.textboxs {
+    margin: 0;
+    padding: 0;
+    background-color: #393b3a;
+    /*#2dbab0*/
+    border: 7px solid #2b2b2b;
+    /*#05968c*/
+}
+
+.fortexts ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.fortimes {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.btn {
+    width: 50%;
+    height: 45px;
+    /*position: relative;*/
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+
+.hintwords {
+    animation: hintsani 2s forwards;
+}
+
+@keyframes hintsani {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.8);
+        border: 2px dotted #24ffda;
+        border-radius: 50%;
+    }
+}
+
+.forhints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+.gphints {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    /*border: 2px solid rgba(255, 255, 255, 0.4);*/
+    position: relative;
+    z-index: 0;
+}
+
+.gphints::before {
+    content: "Hints";
+    width: 100px;
+    height: 50px;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    z-index: 0;
+}
+
+.mychances {
+    color: #fff;
+    background-color: #5a62fa;
+    padding: 2px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50%;
+    right: 25%;
+}
+
+.hints {
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    color: #2b2b2b;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);*/
+}
+
+.hints1,
+.hints2,
+.hints3,
+.hints4,
+.hints5,
+.hints6,
+.hints7,
+.hints8,
+.hints9,
+.hints10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hints1 {
+    z-index: 10;
+}
+
+.hints2 {
+    z-index: 9;
+}
+
+.hints3 {
+    z-index: 8;
+}
+
+.hints4 {
+    z-index: 7;
+}
+
+.hints5 {
+    z-index: 6;
+}
+
+.hints6 {
+    z-index: 5;
+}
+
+.hints7 {
+    z-index: 4;
+}
+
+.hints8 {
+    z-index: 3;
+}
+
+.hints9 {
+    z-index: 2;
+}
+
+.hints10 {
+    z-index: 1;
+}
+
+
+/*Start Modal Box*/
+
+.alertbox {
+    width: 300px;
+    height: 330px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+.emojibox {
+    padding: 20px 0px;
+}
+
+.alerttext {
+    text-align: center;
+}
+
+.alerttext h4 {
+    color: #303030;
+}
+
+.nextbtn {
+    padding: 10px 20px;
+    background-color: #424242;
+    color: #fff;
+    border: 3px solid #424242;
+    border-radius: 5px;
+}
+
+.nextbtn a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 500;
+}
+
+.goverbox {
+    width: 300px;
+    height: 330px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+@media (max-width: 1000px) {
+    .forhints {
+        margin-top: 7px;
+    }
+    .gphints {
+        width: 80px;
+        height: 38px;
+    }
+    .gphints::before {
+        width: 80px;
+        height: 38px;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 35px;
+        position: absolute;
+        left: 0;
+        top: 5px;
+    }
+    .hints {
+        width: 80px;
+        height: 38px;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 35px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    .mychances {
+        font-size: 0.8rem;
+        padding: 2px 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50%;
+        right: 20%;
+    }
+    .goverbox {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        position: absolute;
+        top: 8%;
+        left: 28%;
+    }
+    .alertbox {
+        width: 300px;
+        height: 320px;
+        margin-top: 50px;
+        position: absolute;
+        top: 8%;
+        left: 28%;
+    }
+}
+
+
+/*End Modal Box*/

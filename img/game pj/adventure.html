@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Find It Find Them</title>
+    <!-- logo -->
+    <link href="../asset/img/gamepj/advlogo.png" rel="icon" type="image/jpg" sizes="16*16" />
+    <!-- bootstrap css1 js1 -->
+    <link href="../asset/libs/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- jqueryui css1 js1 -->
+    <link href="../asset/libs/jquery-ui-1.13.1/jquery-ui.min.css" rel="stylesheet" />
+    <!-- fontawesome css1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- lightbox2 css1 js1 -->
+    <link href="../asset/libs/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
+    <!-- custom css -->
+    <link href="./css/adventure.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="findit">
+        <div class="container-fluid">
+            <div class="row boxs">
+                <div class="col-10 imgboxs">
+                    <img src="../asset/img/gamepj/adventure1.jpg" width="100%" alt="cartonanimals3" class="bgs" />
+                </div>
+                <div class="col-2 textboxs fixed-end">
+                    <div class="text-center py-2 fortimes">
+                        <!-- <img src="./img/clock1.png" width="100px" alt="clock1" /> -->
+                        <h4 class="fw-bold text-white">Time</h4>
+
+                        <span class="h5 text-white" id="times"></span>
+                    </div>
+                    <div class="text-white text-center fortexts py-3">
+                        <ul class="text-uppercase">
+                            <li class="pt-lg-4 wms">Ball</li>
+                            <li class="pt-lg-4 pt-sm-1 chs">fish</li>
+                            <li class="pt-lg-4 pt-sm-1 fls">necklace</li>
+                            <li class="pt-lg-4 pt-sm-1 bns">bell</li>
+                            <li class="pt-lg-4 pt-sm-1 ogs">mushroom</li>
+                            <li class="pt-lg-4 pt-sm-1 fws">bee</li>
+                            <li class="pt-lg-4 pt-sm-1 fxs">snail</li>
+                            <li class="pt-lg-4 pt-sm-1 bbs">sword</li>
+                            <li class="pt-lg-4 pt-sm-1 cps">crab</li>
+                            <li class="pt-lg-4 pt-sm-1 pb-lg-5 pb-sm-2 gps">unicorn</li>
+                        </ul>
+                    </div>
+
+                    <div class="forhints text-center">
+                        <div class="gphints">
+                            <span class="hints hints1">Hints</span>
+                            <span class="hints hints2">Hints</span>
+                            <span class="hints hints3">Hints</span>
+                            <span class="hints hints4">Hints</span>
+                            <span class="hints hints5">Hints</span>
+                            <span class="hints hints6">Hints</span>
+                            <span class="hints hints7">Hints</span>
+                            <span class="hints hints8">Hints</span>
+                            <span class="hints hints9">Hints</span>
+                            <span class="hints hints10">Hints</span>
+                        </div>
+                        <span id="ec" class="mychances">3</span>
+                    </div>
+
+                    <!-- <div class="forhints  text-center my-md-4">
+						<h3 class="btn btn-sm text-uppercase position-relative fw-bold hintbtns" id="hintbtn">Hints
+                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary " id="mychances">
+                               3
+                             </span>
+						</h3>
+					</div> -->
+                </div>
+            </div>
+
+            <div class="smallboxs">
+                <img src="../asset/img/gamepj/ad1.png" class="watermelon final" width="50px" alt="tom8" />
+
+                <img src="../asset/img/gamepj/ad2.png" class="cherry final" width="50px" alt="tom9" />
+
+                <img src="../asset/img/gamepj/ad3.png" class="fly final" width="20px" alt="tom1" />
+
+                <img src="../asset/img/gamepj/ad4.png" class="banana final" width="30px" alt="tom4" />
+
+                <img src="../asset/img/gamepj/ad5.png" class="orange final" width="15px" alt="tom10" />
+
+                <img src="../asset/img/gamepj/ad6.png" class="flower final" width="33px" alt="tom2" />
+
+                <img src="../asset/img/gamepj/ad7.png" class="fox final" width="20px" alt="tom3" />
+
+                <img src="../asset/img/gamepj/ad8.png" class="bamboo final" width="70px" alt="mk8" />
+
+                <img src="../asset/img/gamepj/ad9.png" class="caterpillar final" width="30px" alt="mk9" />
+
+                <img src="../asset/img/gamepj/ad10.png" class="grape final" width="20px" alt="mk10" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Win Alert Box -->
+    <div class="alertbox">
+        <div class="emojibox">
+            <img src="../asset/img/gamepj/win.jpg" width="100px" alt="emoji" />
+        </div>
+        <div class="alerttext">
+            <h4>Nailed it !</h4>
+            <p>You completed the task!</p>
+            <button type="button" class="nextbtn"><a href="#">Next</a></button>
+        </div>
+    </div>
+    <!-- End Win Alert Box -->
+
+    <!-- Start Gameover Box -->
+    <div class="goverbox">
+        <div class="emojibox">
+            <img src="../asset/img/gamepj/lose.png" width="100px" alt="emoji" />
+        </div>
+        <div class="alerttext">
+            <h4>Ohh You lost !</h4>
+            <p>Let's try again!</p>
+            <button type="button" class="nextbtn">
+          <a href="adventure.html">Try Again</a>
+        </button>
+        </div>
+    </div>
+    <!-- End Gameover Box -->
+
+    <!-- bootstrap css1 js1 -->
+    <script src="../asset/libs/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <!-- jquery js1 -->
+    <script src="../asset/libs/jquery-3.6.0/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <!-- jqueryui css1 js1 -->
+    <script src="../asset/libs/jquery-ui-1.13.1/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- lightbox2 css1 js1 -->
+    <script src="../asset/libs/lightbox2-2.11.3/dist/js/lightbox.min.js"></script>
+    <!-- custom js -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
