@@ -14,7 +14,9 @@ body{
 .roombox{
 	width: 100%;
 	height: 100vh;
-	background-image: url("./img/roombg1.webp");
+	background-image: url("./img/bgg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 
 	filter: blur(3px);
 }
@@ -78,16 +80,24 @@ body{
 	margin-left: 55px;
 }
 
+.carousel-control-prev{
+   	border-radius: 80%;
+   }
+
+  .carousel-control-next{
+  	border-radius: 80%;
+  	}
+
 .carousel-control-prev-icon{
    background-color: darkblue;
-   width: 100px;
+   width: 80px;
    height: 50px;
    border-radius: 10px;
 }
 
 .carousel-control-next-icon{
   background-color: darkblue;
-   width: 100px;
+   width: 80px;
    height: 50px;
    border-radius: 10px;
 }
@@ -113,47 +123,18 @@ body{
    	margin-right: 50px;
    }
 
-    /*.carousel-item{
-	margin-left: 30px;
-}*/
-
   .carousel-control-next{
   	margin-right: 20px;
   }
 
-  /*.carousel-control-prev{
-  	margin-right: 100px;
-  }*/
+  .carousel-control-next-icon{
+  	width: 50px;
+  	/*margin-right: 10px;*/
+  }
 
   .boxs{
   	left: 0;
 	right: 30%;
 }
-
-/*    .carousel-item{
-	width: 1200px;
-
-}*/
-
-
-/*.box1s,.box2s{
-	width: 100%;
-	height: 400px;
-	margin-left: 20px;
-	}*/
-
-
-	/*.card{
-		width: 250px;
-	}
-
-	.card-header img{
-	width: 230px;
-	height: 200px;
-	padding-right: 13px;
-
-}*/
-
-
     
 }

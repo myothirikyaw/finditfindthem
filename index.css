@@ -161,8 +161,9 @@ body{
    }
 
    .bamboo{
-   	width: 130px;
+   	width: 110px;
    	bottom: 28%;
+   	right: 15%;
    }
 
    .caterpillar{
@@ -225,6 +226,7 @@ body{
 }
 
 .forhints{
+	/*background-color: green;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,12 +420,12 @@ body{
    }
 
    .gphints{
-    width: 70px;
+    width: 90px;
     height: 38px;
   }
 
   .gphints::before{
-  	 width: 70px;
+  	 width: 90px;
     height: 38px;
     font-size: 1rem;
     font-weight: 400;
@@ -436,7 +438,7 @@ body{
   }
 
   .hints{
-    width: 70px;
+    width: 90px;
     height: 38px;
     font-size: 1rem;
     font-weight: 400;
