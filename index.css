@@ -8,6 +8,65 @@ body{
 	overflow: hidden;
 }
 
+@media screen and (orientation: portrait) {
+
+	#findit{
+		display: none;
+	}
+    body{
+        background: linear-gradient(
+                    rgba(0,0,0,0.85),
+                    rgba(0,0,0,0.85)
+                     ),url('./img/bgg1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    body::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: url('./img/rotate.png');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        position: absolute;
+        top: 42%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+    }
+
+    body::after{
+        content: 'Please rotate your screen';
+        width: 100%;
+        height: 100%;
+        color: #888;
+        font-size: 3.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        transform: translateY(35px);
+
+        animation: ani 1.7s;
+    }
+
+    @keyframes ani{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    }
+
 .container-fluid{
 	margin: 0;
 	padding: 0;
@@ -118,56 +177,67 @@ body{
 }
 
 @media (max-width: 1000px){
+
+	.smallboxs{
+	width: 90%;
+  }
    .watermelon{
    	width: 23px;
    	top: 38%;
+   	left: 11.5%;
    }
 
    .cherry{
    	width: 60px;
-   	top: 10%;
-	right: 26%;
+   	top: 10.3%;
+	right: 18.2%;
    }
 
    .fly{
    	width: 36px;
    	bottom: 9%;
+	left: 38%;
    }
 
    .banana{
    	width: 29px;
-   	top: 6.7%;
+   	top: 6.9%;
+   	left: 28.3%;
    }
 
    .orange{
    	width: 25px;
+   	left: 8.3%;
    	bottom: 11%;
    }
 
    .flower{
    	width: 26px;
    	top: 50%;
+   	left: 28.5%;
    }
 
    .bush{
    	width: 28px;
-   	right: 19.5%;
+   	right: 10%;
    	bottom: 12%;
    }
 
    .fox{
    	width: 40px;
+   	right: 9.6%;
    	bottom: 13%;
    }
 
    .bamboo{
    	width: 110px;
    	bottom: 28%;
-   	right: 15%;
+   	right: 5%;
    }
 
    .caterpillar{
    	width: 30px;
+    right: 50%;
    	top: 8%;
    }
 
@@ -417,6 +487,7 @@ body{
 @media (max-width: 1000px){
    .forhints{
    	  margin-top: 15px;
+   	
    }
 
    .gphints{

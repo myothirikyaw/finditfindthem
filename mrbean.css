@@ -133,6 +133,11 @@ body{
     .imgboxs img{
         height: 490px;
     }
+
+    .smallboxs{
+    width: 90%;
+  }
+
     .watermelon{
         top: 58.8%;
         left: 6%;
@@ -143,37 +148,37 @@ body{
     .cherry{
         width: 60px;
         top: 30%;
-        right: 17.8%;
+        right: 8%;
     }
     
     .fly{
         width: 30px;
         top: 33.5%;
-        left: 58.9%;
+        left: 65.6%;
     }
     
     .banana{
         top: 23%;
-        left: 4.6%;
+        left: 5%;
         width: 14px;
     }
     
     .orange{
         top: 72%;
-        left: 25%;
+        left: 27%;
         width: 110px;
     }
     
     .flower{
         width: 30px;
         top: 34%;
-        left: 45%;
+        left: 49.3%;
     }
     
     .fox{
         position: absolute;
         top: 46.5%;
-        right: 19%;
+        left: 78%;
 
         width: 40px;
     }
@@ -181,18 +186,18 @@ body{
     .bamboo{
         width: 40px;
         top: 28.3%;
-        left: 30%;
+        left: 33%;
     }
     
     .caterpillar{
        top: 23.8%;
-       left: 40%;
+       left: 45%;
     }
     
     .grape{
         width: 30px;
         top: 37%;
-        left: 19.5%;
+        left: 21.9%;
     }
 
 }

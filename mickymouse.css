@@ -129,53 +129,60 @@ body {
 }
 
 @media (max-width: 1000px) {
+
+    .smallboxs{
+        width: 90%;
+  }
+
     .watermelon {
         width: 18px;
         top: 65%;
-        right: 38.5%;
+        right: 30%;
     }
     .cherry {
         width: 10px;
         top: 42.9%;
-        left: 22%;
+        left: 24%;
     }
     .fly {
         width: 18px;
         top: 36.5%;
-        left: 26%;
+        left: 29%;
     }
     .banana {
         width: 20px;
         top: 45.5%;
+        right: 15%;
     }
     .orange {
         width: 18px;
         top: 32.8%;
-        left: 5%;
+        left: 5.3%;
     }
     .flower {
         width: 18px;
         top: 58.5%;
-        right: 32.4%;
+        right: 25.2%;
     }
     .fox {
         width: 40px;
         top: 57%;
-        right: 44.4%;
+        right: 38.3%;
     }
     .bamboo {
         width: 30px;
         bottom: 9%;
+        left: 17%;
     }
     .caterpillar {
         width: 30px;
         top: 33.3%;
-        left: -0.5%;
+        left: -0.4%;
     }
     .grape {
         width: 10px;
         top: 50.6%;
-        left: 43.3%;
+        left: 48.1%;
     }
 }
 

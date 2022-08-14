@@ -94,7 +94,7 @@ body{
 	transform: rotate(135deg);
 	position: absolute;
 	bottom: 33%;
-	left: 28.5%;
+	left: 30%;
 }
 
 .caterpillar{
@@ -138,64 +138,68 @@ body{
     height: 490px;
 }
 
+  .smallboxs{
+        width: 90%;
+  }
+
    .watermelon{
    	width: 16px;
    	top: 54%;
-   	left: 11.3%;
+   	left: 12.6%;
    }
 
    .cherry{
    	width: 28px;
    	top: 45.8%;
-	right: 28.3%;
+	right: 20%;
    }
 
    .fly{
    	width: 27px;
    	bottom: 23%;
-	left: 55%;
+	left: 61.3%;
    }
 
    .banana{
    	width: 20px;
    	bottom: 26.8%;
-	right: 15.8%;
+	right: 6.8%;
    }
 
    .orange{
    	width: 16px;
    	top: 17.3%;
-	left: 25%;
+	left: 27.8%;
    }
 
    .flower{
    	width: 20px;
    	top: 42.8%;
-	left: 63.8%;
+	left: 71%;
    }
 
    .fox{
    	width: 30px;
    	top: 34.8%;
-	left: 41.2%;
+	left: 45.5%;
    }
 
    .bamboo{
-   	width: 22px;
+   	width: 24px;
    	top: 39%;
-	left: 28.5%;
+	left: 33%;
    }
 
    .caterpillar{
    	width: 25px;
    	bottom: 15%;
-    left: 18.6%;
+    left: 19.8%;
    }
 
    .grape{
    	width: 15px;
    	top: 11.2%;
-	right: 30%;
+	right: 22%;
    }
 
 }

@@ -129,6 +129,11 @@ body {
 }
 
 @media (max-width: 1000px) {
+
+     .smallboxs{
+        width: 90%;
+  }
+
     .watermelon {
         width: 30px;
         top: 30%;
@@ -137,25 +142,25 @@ body {
     .cherry {
         width: 20px;
         bottom: 9.8%;
-        left: 14%;
+        left: 14.5%;
     }
     .fly {
         bottom: 35%;
-        right: 22%;
+        right: 13.7%;
     }
     .banana {
         top: 30%;
-        right: 41%;
+        right: 33.3%;
     }
     .orange {
         bottom: 30%;
-        right: 30%;
+        right: 20.5%;
         opacity: 0.7;
     }
     .flower {
         width: 20px;
         top: 30%;
-        right: 50%;
+        right: 48%;
         opacity: 0.8;
     }
     .fox {
@@ -166,16 +171,16 @@ body {
     .bamboo {
         width: 50px;
         top: 37%;
-        right: 17%;
+        right: 9%;
     }
     .caterpillar {
         width: 20px;
         top: 53%;
-        left: 30%;
+        left: 32.8%;
     }
     .grape {
         top: 50.5%;
-        left: 43.3%;
+        left: 46.5%;
     }
 }
 
