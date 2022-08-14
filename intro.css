@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    background: url("./img/bgg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (orientation: portrait) {
+
+    #intro{
+        display: none;
+    }
+    body{
+        background: linear-gradient(
+                    rgba(0,0,0,0.7),
+                    rgba(0,0,0,0.7)
+                     ),url('./img/bgg2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+
+    body::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: url('./img/rotate.png');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        position: absolute;
+        top: 42%;
+        left: 50%;
+
+        transform: translate(-50%,-50%);
+    }
+
+    body::after{
+        content: 'Please rotate your screen';
+        width: 100%;
+        height: 100%;
+        color: #888;
+        font-size: 3.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        transform: translateY(35px);
+
+        animation: ani 1.7s;
+    }
+
+    @keyframes ani{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    }
+
+
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+span {
+    font-family: "DynaPuff", cursive;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    animation: myani 2s linear 3;
+}
+
+@keyframes myani {
+    0% {
+        transform: translateY(-50px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+span:nth-child(1) {
+    animation-delay: 0.2s;
+    color: rgb(215, 80, 80);
+}
+
+span:nth-child(2) {
+    animation-delay: 0.8s;
+    color: rgb(145, 70, 70);
+}
+
+span:nth-child(3) {
+    animation-delay: 1.2s;
+    color: rgb(181, 65, 29);
+}
+
+span:nth-child(4) {
+    animation-delay: 0.4s;
+    color: rgb(191, 88, 57);
+}
+
+span:nth-child(5) {
+    animation-delay: 0.6s;
+    color: rgb(203, 133, 20);
+}
+
+span:nth-child(6) {
+    animation-delay: 1.4s;
+    color: rgb(162, 127, 71);
+}
+
+span:nth-child(7) {
+    animation-delay: 1s;
+    color: rgb(127, 233, 27);
+}
+
+span:nth-child(8) {
+    animation-delay: 0.1s;
+    color: rgb(113, 159, 69);
+}
+
+span:nth-child(9) {
+    animation-delay: 1.5s;
+    color: rgb(36, 199, 164);
+}
+
+span:nth-child(10) {
+    animation-delay: 0.6s;
+    color: rgb(20, 66, 56);
+}
+
+span:nth-child(11) {
+    animation-delay: 0.9s;
+    color: rgb(36, 42, 215);
+}
+
+span:nth-child(12) {
+    animation-delay: 1.3s;
+    color: rgb(69, 71, 134);
+}
+
+span:nth-child(13) {
+    animation-delay: 0.5s;
+    color: rgb(199, 31, 207);
+}
+
+span:nth-child(14) {
+    animation-delay: 0.3s;
+    color: rgb(160, 61, 120);
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(rgb(5, 178, 246), rgb(13, 93, 158));
+    color: #fff;
+    font-family: Rokkitt;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top: 150px;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    transition: all 0.3s;
+}
+
+a:active {
+    transform: translateY(0px);
+}

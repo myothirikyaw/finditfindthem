@@ -1,3 +1,3 @@
 <?php
- require "room.html";
+ require "intro.html";
 ?>

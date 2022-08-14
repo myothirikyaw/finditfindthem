@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	padding: 0;
+
+	overflow: hidden;
 }
 
 /*#room{
@@ -19,6 +21,8 @@ body{
 	background-size: cover;
 
 	filter: blur(3px);
+
+
 }
 
 .boxs{
@@ -116,7 +120,7 @@ body{
 
     .roombox{
 	width: 1458px;
-	height: 672px;
+	height: 730px;
 }
 
    .carousel{
