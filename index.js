@@ -31,9 +31,10 @@ function counterfun(){
 $(document).ready(function(){
 
 	$(".watermelon").click(function(){
+		// $(".watermelon").removeClass("final");
 		$(".watermelon").addClass("things").attr(
 			          "value","2");
-		$(".watermelon").hide("pulsate",2000);
+		// $(".watermelon").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".wms").css({
 			"text-decoration" : "line-through",
@@ -45,9 +46,10 @@ $(document).ready(function(){
 
 
 	$(".cherry").click(function(){
+		// $(".cherry").removeClass("final");
 		$(".cherry").addClass("things").attr(
 			          "value","2");
-		$(".cherry").hide("pulsate",2000);
+		// $(".cherry").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".chs").css({
 			"text-decoration" : "line-through",
@@ -59,9 +61,10 @@ $(document).ready(function(){
 
 
 	$(".fly").click(function(){
+		// $(".fly").removeClass("final");
 		$(".fly").addClass("things").attr(
 			          "value","2");
-		$(".fly").hide("pulsate",2000);
+		// $(".fly").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".fls").css({
 			"text-decoration" : "line-through",
@@ -73,9 +76,10 @@ $(document).ready(function(){
 
 
 	$(".banana").click(function(){
+		// $(".banana").removeClass("final");
 		$(".banana").addClass("things").attr(
 			          "value","2");
-		$(".banana").hide("pulsate",2000);
+		// $(".banana").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".bns").css({
 			"text-decoration" : "line-through",
@@ -87,9 +91,10 @@ $(document).ready(function(){
 
 
 	$(".orange").click(function(){
+		// $(".orange").removeClass("final");
 		$(".orange").addClass("things").attr(
 			          "value","2");
-		$(".orange").hide("pulsate",2000);
+		// $(".orange").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".ogs").css({
 			"text-decoration" : "line-through",
@@ -100,9 +105,10 @@ $(document).ready(function(){
 	});
 
 	$(".flower").click(function(){
+		// $(".flower").removeClass("final");
 		$(".flower").addClass("things").attr(
 			          "value","2");
-		$(".flower").hide("pulsate",2000);
+		// $(".flower").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".fws").css({
 			"text-decoration" : "line-through",
@@ -114,9 +120,10 @@ $(document).ready(function(){
 
 
 	$(".fox").click(function(){
+		// $(".fox").removeClass("final");
 		$(".fox").addClass("things").attr(
 			          "value","2");
-		$(".fox").hide("pulsate",2000);
+		// $(".fox").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".fxs").css({
 			"text-decoration" : "line-through",
@@ -127,9 +134,10 @@ $(document).ready(function(){
 	});
 
 	$(".bamboo").click(function(){
+		// $(".bamboo").removeClass("final");
 		$(".bamboo").addClass("things").attr(
 			          "value","2");
-		$(".bamboo").hide("pulsate",2000);
+		// $(".bamboo").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".bbs").css({
 			"text-decoration" : "line-through",
@@ -140,9 +148,10 @@ $(document).ready(function(){
 	});
 
 	$(".caterpillar").click(function(){
+		// $(".caterpillar").removeClass("final");
 		$(".caterpillar").addClass("things").attr(
 			          "value","2");
-		$(".caterpillar").hide("pulsate",2000);
+		// $(".caterpillar").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".cps").css({
 			"text-decoration" : "line-through",
@@ -153,9 +162,10 @@ $(document).ready(function(){
 	});
 
 	$(".grape").click(function(){
+		// $(".grape").removeClass("final");
 		$(".grape").addClass("things").attr(
 			          "value","2");
-		$(".grape").hide("pulsate",2000);
+		// $(".grape").hide("pulsate",1000);
 		// $(".wms").wrap("<del></del>");
 		$(".gps").css({
 			"text-decoration" : "line-through",
@@ -230,11 +240,12 @@ $(document).ready(function(){
 
     let clickTimes = 9;
 
-    $(".final").click(function(){
+    $(".final").mouseenter(function(){
        
        if(clickTimes < 10 && clickTimes > 0){
-       	// console.log(clickTimes);
+       	
        	clickTimes--;
+       	console.log(clickTimes);
        }else if(clickTimes == 0 ){
        	 // $(".modal").show();
        	 // console.log("You win")
