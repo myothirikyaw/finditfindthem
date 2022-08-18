@@ -19,7 +19,7 @@ function counterfun(){
 	counter.innerHTML = `${minutes} : ${seconds}`;
 	time--;
 }else{
-	$(".goverbox").show("fade",100);
+	$(".goverbox").css("opacity","1").show("fade",100);
     $("#findit").addClass("blur");
 	// console.log("gameover");
 }
@@ -242,14 +242,14 @@ $(document).ready(function(){
 
     $(".final").mouseenter(function(){
        
-       if(clickTimes < 10 && clickTimes > 0){
+       if(clickTimes <= 10 && clickTimes > 0){
        	
        	clickTimes--;
        	console.log(clickTimes);
        }else if(clickTimes == 0 ){
        	 // $(".modal").show();
        	 // console.log("You win")
-       	$(".alertbox").show("fade",100);
+       	$(".alertbox").css("opacity","1").show("fade",100);
        	$("#findit").addClass("blur");
         
        };

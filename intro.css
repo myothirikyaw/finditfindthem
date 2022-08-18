@@ -15,6 +15,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    overflow: hidden;
 }
 
 
@@ -86,6 +88,11 @@
             opacity: 1;
         }
     }
+
+    .music{
+        opacity: 0;
+    }
+
     }
 
   
@@ -103,7 +110,7 @@ span {
     display: inline-block;
     text-align: center;
     margin: 0 5px;
-    animation: myani 2s linear 3;
+    animation: myani 2s linear infinite;
 }
 
 @keyframes myani {
@@ -205,4 +212,94 @@ a {
 
 a:active {
     transform: translateY(0px);
+}
+
+audio{
+    opacity: 0;
+   /* width: 50px;
+    height: 530px;*/
+
+    position: absolute;
+    top: 6.7%;
+    left: 4%;
+
+    z-index: 4;
+}
+
+.music{
+    color: #fff;
+    font-size: 1.8rem;
+    background-color: rgba(255, 255, 255, 1);
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(46, 175, 255, 0.8);
+
+    position: absolute;
+    left: 4%;
+    top: 6.5%;
+
+    border-radius: 10px;
+}
+
+.fa-volume-high{
+    color: #4a87f7;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+
+    z-index: 3;
+}
+
+.progress{
+    width: 600px;
+    background-color: #f5ded7;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+.progress-bar{
+    width: 0;
+    height: 15px;
+    background-color: #e8481c;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+@media (max-width: 1000px){
+    
+    audio{
+    position: absolute;
+    top: 4%;
+    right: 20%;
+
+    z-index: 4;
+}
+
+  .music{
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    width: 40px;
+    height: 40px;
+    }
+
+    .fa-volume-high{
+    color: #4a87f7;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+ .name{
+    margin-top: 50px;
+ }
+
+  span{
+        font-size: 2.5rem;
+    }
+    a{
+        font-size: 1.5rem;
+    }
+
 }
