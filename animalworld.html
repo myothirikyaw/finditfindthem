@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find it</title>
+
+	<!-- logo pic -->
+    <link href="./img/smallpic/logo.webp" rel="icon" type="image/webp" sizes="16*16"  />
+
+	<!-- bootstrap css1 js1 -->
+	<link href="./libs/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- jquery-ui css1 js1 -->
+	<link href="./libs/jquery-ui-1.13.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+
+	<!-- fontawesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+	<section id="findit">
+		<div class="container-fluid">
+			<div class="row boxs">
+				<div class="col-10 imgboxs">
+					
+					<img src="./img/smallpic/cartonanimals3.jpg" width="100%" alt="cartonanimals3" class="bgs"/>
+
+					</div>
+				
+				<div class="col-2 textboxs fixed-end">
+					<div class="text-center py-2 fortimes ">
+					   <!-- <img src="./img/clock1.png" width="100px" alt="clock1" /> -->
+					   <h4 class="fw-bold text-white">Time</h4>
+					 
+					   <span class="h5 text-white" id="times"></span>
+
+					</div>
+					<div class="text-white text-center fortexts  py-3">
+						<ul class=" text-uppercase">
+							<li class="pt-lg-4 wms">Watermelon</li>
+							<li class="pt-lg-4 pt-sm-1 chs">Cherry</li>
+							<li class="pt-lg-4 pt-sm-1 fls">Fly</li>
+							<li class="pt-lg-4 pt-sm-1 bns">Banana</li>
+							<li class="pt-lg-4 pt-sm-1 ogs">Orange</li>
+							<li class="pt-lg-4 pt-sm-1 fws">Flower</li>
+							<li class="pt-lg-4 pt-sm-1 fxs">Fox</li>
+							<li class="pt-lg-4 pt-sm-1 bbs">Bamboo</li>
+							<li class="pt-lg-4 pt-sm-1 cps">Caterpillar</li>
+							<li class="pt-lg-4 pt-sm-1 pb-lg-5 pb-sm-2 gps">grape</li>
+						</ul>
+					</div>
+
+
+                     <div class="forhints text-center ">
+                            <div class="gphints">
+                                <span class="hints hints1 ">Hints</span>
+                                <span class="hints hints2 ">Hints</span>
+                                <span class="hints hints3">Hints</span>
+                                <span class="hints hints4">Hints</span>
+                                <span class="hints hints5">Hints</span>
+                                <span class="hints hints6">Hints</span>
+                                <span class="hints hints7">Hints</span>
+                                <span class="hints hints8">Hints</span>
+                                <span class="hints hints9">Hints</span>
+                                <span class="hints hints10">Hints</span>
+                            </div>
+                            <span id="ec" class="mychances">3</span>
+                        </div>
+
+
+
+					<!-- <div class="forhints  text-center my-md-4">
+						<h3 class="btn btn-sm text-uppercase position-relative fw-bold hintbtns" id="hintbtn">Hints
+                           <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary " id="mychances">
+                               3
+                             </span>
+						</h3>
+					</div> -->
+				</div>
+				
+				
+			</div>
+
+			<div class="smallboxs">
+				<img src="./img/smallpic/fruit3-removebg-preview.png" class="watermelon final"  width="30px" alt="fruit3-removebg-preview" />
+
+				<img src="./img/smallpic/fruit6-removebg-preview.png" class="cherry final"  width="80px" alt="fruit6-removebg-preview" />
+
+				<img src="./img/smallpic/animal7-removebg-preview.png" class="fly final" width="50px" alt="animal7-removebg-preview.png" />
+
+				<img src="./img/smallpic/fruit1-removebg-preview.png" class="banana final" width="40px" alt="fruit1-removebg-preview.png" />
+
+				<img src="./img/smallpic/fruit4-removebg-preview.png" class="orange final" width="40px" alt="fruit4-removebg-preview.png" />
+
+				<img src="./img/smallpic/flower3-removebg-preview.png" class="flower final" width="40px" alt="flower3-removebg-preview.png" />
+
+				<img src="./img/smallpic/animal8-removebg-preview.png" class="fox final" width="50px" alt="animal8-removebg-preview.png" />
+
+				<!-- <img src="./img/smallpic/plant4-removebg-preview.png" class="bush" width="45px" alt="plant4-removebg-preview.png" />
+ -->
+				<img src="./img/smallpic/istockphoto-898311540-170667a-removebg-preview.png" class="bamboo final" width="200px" alt="istockphoto-898311540-170667a-removebg-preview.png" />
+
+				<img src="./img/smallpic/caterpillar-remove.png" class="caterpillar final" width="40px" alt="caterpillar-remove.png" />
+
+				<img src="./img/smallpic/grape-remove1.png" class="grape final" width="50px" alt="grape-remove1.png" />
+			</div>
+			
+		</div>
+	</section>
+
+
+	<!-- Start Win Alert Box -->
+	  <div class="alertbox">
+	  	<div class="emojibox">
+	  		<img src="./img/smallpic/smile5.webp" width="100px" alt="emoji" />
+	  	</div>
+	  	<div class="alerttext">
+	  		<h4>Nailed it !</h4>
+	  		<p>You completed the task!</p>
+	  		<button type="button" class="nextbtn"><a href="room.html">Menu</a></button>
+	  		<button type="button" class="nextbtn"><a href="scoobydoo.html">Next</a></button>
+	  		
+	  		
+	  	</div>
+	  </div>
+	<!-- End Win Alert Box -->
+
+	<!-- Start Gameover Box -->
+      <div class="goverbox">
+	  	<div class="emojibox">
+	  		<img src="./img/smallpic/sad2-removebg-preview.png" width="100px" alt="emoji" />
+	  	</div>
+	  	<div class="alerttext">
+	  		<h4>Ohh You lost !</h4>
+	  		<p>Let's try again!</p>
+	  		<button type="button" class="nextbtn"><a href="room.html">Menu</a></button>
+	  		<button type="button" class="nextbtn"><a href="animalworld.html">Try Again</a></button>
+	  		
+	  	</div>
+	  </div>
+	  <!-- End Gameover Box -->
+
+	
+    <!-- boostrap css1 js1 -->
+	<script src="./libs/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
+
+	<!-- jquery js1 -->
+	<script src="./libs/jquery-3.6.0/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+	<!-- jquery-ui css1 js1 -->
+	<script src="./libs/jquery-ui-1.13.1/jquery-ui.min.js" type="text/javascript"></script>
+
+    <script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>
