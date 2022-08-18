@@ -302,4 +302,8 @@ audio{
         font-size: 1.5rem;
     }
 
+    .progress{
+    margin-top: 150px;
+}
+
 }
