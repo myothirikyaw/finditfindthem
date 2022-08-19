@@ -33,8 +33,7 @@ $(document).ready(function(){
 	$(".watermelon").click(function(){
 		$(".watermelon").addClass("things").attr(
 			          "value","2");
-		// $(".watermelon").hide("pulsate",2000);
-		// $(".wms").wrap("<del></del>");
+		
 		$(".wms").css({
 			"text-decoration" : "line-through",
 			"opacity" : "0.5"

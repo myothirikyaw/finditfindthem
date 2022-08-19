@@ -82,14 +82,9 @@ body {
 .imgboxs {
     margin: 0;
     padding: 0;
-    /* height: 100vh; */
 }
 
 
-/* .bgs {
-    width: 100%;
-    height: 100%;
-} */
 
 .bgs {
     width: 100%;
@@ -187,9 +182,7 @@ body {
     0% {
         transform: scale(1);
     }
-   /* 50% {
-        transform: scale(2);
-    }*/
+   
     100% {
         transform: scale(2);
         opacity: 0;
@@ -258,9 +251,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #393b3a;
-    /*#2dbab0*/
+    
     border: 7px solid #2b2b2b;
-    /*#05968c*/
+    
 }
 
 .fortexts ul {
@@ -272,7 +265,7 @@ body {
 
 @media (max-width: 1000px) {
     .bgs {
-        /* height: 100%; */
+        
         height: 490px;
     }
     .fortexts ul {
@@ -291,7 +284,7 @@ body {
 .btn {
     width: 50%;
     height: 45px;
-    /*position: relative;*/
+    
     line-height: 30px;
     background-color: #f1f1f1;
 }
@@ -324,7 +317,7 @@ body {
     height: 50px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
-    /*border: 2px solid rgba(255, 255, 255, 0.4);*/
+    
     position: relative;
     z-index: 0;
 }
@@ -368,7 +361,7 @@ body {
     cursor: pointer;
     border: 2px solid #fff;
     border-radius: 5px;
-    /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);*/
+   
 }
 
 .hints1,

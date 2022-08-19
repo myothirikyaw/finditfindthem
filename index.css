@@ -174,10 +174,6 @@ body{
 	0%{
        transform: scale(1);
 	}
-	/*50%{
-		transform: scale(2);*/
-		
-	/*}*/
 	100%{
        transform: scale(2);
        opacity: 0;
@@ -259,8 +255,8 @@ body{
 .textboxs{	
 	margin: 0;
 	padding: 0;  
-    background-color: #393b3a; /*#2dbab0*/ 
-    border: 7px solid #2b2b2b; /*#05968c*/
+    background-color: #393b3a; 
+    border: 7px solid #2b2b2b;
 }
 
 .fortexts ul{
@@ -283,7 +279,6 @@ body{
 .btn{
 	width: 50%;
 	height: 45px;
-	/*position: relative;*/
 	line-height: 30px;
 	background-color: #f1f1f1;
 
@@ -305,7 +300,6 @@ body{
 }
 
 .forhints{
-	/*background-color: green;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,7 +315,6 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 5px;
     
-    /*border: 2px solid rgba(255, 255, 255, 0.4);*/
 
     position: relative;
     z-index: 0;
@@ -369,8 +362,6 @@ body{
     cursor: pointer;
     border: 2px solid #fff;
     border-radius: 5px;
-
-    /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.4);*/
 }
 
 .hints1, .hints2, .hints3, .hints4, .hints5, .hints6, .hints7, .hints8, .hints9, .hints10{

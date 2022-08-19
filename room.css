@@ -92,7 +92,6 @@ body{
 }
 
 .boxs{
-	/*width: 100%;*/
 	position: absolute;
 	top: 30%;
 	left: 2.3%;
@@ -100,11 +99,6 @@ body{
 	z-index: 2;
 }
 
-/*.cardboxs{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}*/
 
 .card{
 	width: 300px;
@@ -120,13 +114,8 @@ body{
 .card:hover{
 	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
 	transform: translateY(-10px);
-	/*transform: scale(1.1);*/
 }
 
-
-/*.carousel-control-prev{
-	margin-right: 300px;
-}*/
 
 .carousel{
 	width: 1400px;
@@ -197,10 +186,6 @@ body{
   	margin-right: 20px;
   }
 
-  /*.carousel-control-next-icon{
-  	width: 50px;
-  }*/
-
   .boxs{
   	left: 0;
 	right: 30%;
@@ -211,8 +196,6 @@ body{
 /*start audio*/
 audio{
     opacity: 0;
-   /* width: 50px;
-    height: 530px;*/
 
     position: absolute;
     top: 3.3%;
