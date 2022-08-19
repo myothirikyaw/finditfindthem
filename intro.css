@@ -94,6 +94,14 @@
         opacity: 0;
     }
 
+    .progress{
+        opacity: 0;
+    }
+
+    .progress-bar{
+        opacity: 0;
+    }
+
     }
 
   
@@ -256,6 +264,8 @@ audio{
     background-color: #f5ded7;
     margin-top: 200px;
     border-radius: 10px;
+
+    opacity: 1;
 }
 
 .progress-bar{
@@ -263,6 +273,7 @@ audio{
     height: 15px;
     background-color: #e8481c;
     border-radius: 10px;
+    opacity: 1;
 
     position: relative;
 }
