@@ -231,9 +231,10 @@ $(document).ready(function(){
 
     $(".final").mouseenter(function(){
        
-       if(clickTimes < 10 && clickTimes > 0){
+       if(clickTimes <= 10 && clickTimes > 0){
        	// console.log(clickTimes);
        	clickTimes--;
+       	console.log(clickTimes);
        }else if(clickTimes == 0 ){
        	 // $(".modal").show();
        	 // console.log("You win")

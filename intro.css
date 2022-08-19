@@ -95,11 +95,12 @@
     }
 
     .progress{
-        opacity: 0;
+        display: none;
     }
 
-    .progress-bar{
-        opacity: 0;
+
+    .footer{
+        display: none;
     }
 
     }
@@ -282,7 +283,8 @@ audio{
 
     position: relative;
     bottom: -27.8%;
-
+    
+    /*display: block;*/
 
 }
 
